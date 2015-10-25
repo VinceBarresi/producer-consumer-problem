@@ -85,8 +85,7 @@ void *Consumer(void *param) {
 				printf("%d ,",Buffer1.pc_buffer[Buffer1.g]);
 			}
 			printf("%d] In = %d, Out=%d\n",Buffer1.pc_buffer[9],Buffer1.in,Buffer1.out);
-		}
-		else {
+		} else {
 			noOfConsumer++;
 			outValue = Buffer1.pc_buffer[Buffer1.out];
 			Buffer1.pc_buffer[Buffer1.out]=0;
